@@ -2,8 +2,9 @@
 import { SiLinkedin } from "react-icons/si";
 import { AiFillGithub } from "react-icons/ai";
 import { TbMailFilled } from "react-icons/tb";
+import { FaDev } from "react-icons/fa"
 import '../styles/Home.css'
-// import Typewriter from "typewriter-effect";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -11,25 +12,21 @@ const Home = () => {
       <div className="about">
         <h2>
           Hello, I'm Samuel Wachira
-          {/* <Typewriter
-
-            onInit={(typewriter) => {
-              typewriter
-                .typeString("Hello, I'm Samuel Wachira")
-                .pauseFor(1000)
-                .deleteAll()
-                .typeString("A Software Developer")
-                .pauseFor(1000)
-                .deleteAll()
-                .start();
-            }}
-          /> */}
         </h2>
         <div className="prompt">
           <p>I am a software developer mainly focused in building web systems with different web Technologies.</p>
-          < AiFillGithub />
-          < SiLinkedin />
-          < TbMailFilled />
+          <Link to="https://www.github.com/Leader254">
+            <AiFillGithub />
+          </Link>
+          <Link to="https://www.linkedin.com/in/samuel-wachira-2b0b3a1b0/">
+            < SiLinkedin />
+          </Link>
+          <Link to="mailto: samuelwachira219@gmail.com">
+            < TbMailFilled />
+          </Link>
+          <Link to="https://dev.to/samuelwachira">
+            < FaDev />
+          </Link>
         </div>
       </div>
       <div className="skills">
