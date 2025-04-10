@@ -34,15 +34,13 @@ const Home = () => {
         <ol className="list">
           <li className="item">
             <h2>Front-End And Tools</h2>
-            <span>
-              Html, Css, Javascript, React, Bootstrap, Tailwind CSS, Sass, Yarn,
-              Npm, Git, Github, Vscode, Adobe Photoshop
+            <span>Javascript, React, Next Js, Tailwind CSS, Git & Github
             </span>
           </li>
           <li className="item">
             <h2>Back-End & Databases</h2>
             <span>
-              Nodejs, Sql, Express, Postman & ThunderClient, Api, Jwt Auth, Sql Server, Mssql, Azure, Azure Data Studio.
+              Nodejs,.NET, Sql, Express, Postman & ThunderClient, Mssql, Azure, Azure Data Studio.
             </span>
           </li>
           <li className="item">

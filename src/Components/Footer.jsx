@@ -3,26 +3,25 @@ import { BiLogoInstagramAlt } from "react-icons/bi";
 import { SiLinkedin } from "react-icons/si";
 import { AiFillGithub } from "react-icons/ai";
 import '../styles/Footer.css'
-import { Link } from "@material-ui/core";
 
 const Footer = () => {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <Link to="https://github.com/Leader254">
+        <a href="https://github.com/Leader254" target="_blank" rel="noopener noreferrer">
           <AiFillGithub />
-        </Link>
-        <Link to="https://linkedin.com/in/samuel%20gatheru">
+        </a>
+        <a href="https://linkedin.com/in/samuel-gatheru" target="_blank" rel="noopener noreferrer">
           <SiLinkedin />
-        </Link>
-        <Link to="https://instagram.com/i.ts_samh">
+        </a>
+        <a href="https://instagram.com/i.ts_samh" target="_blank" rel="noopener noreferrer">
           <BiLogoInstagramAlt />
-        </Link>
-        <Link to="https://twitter.com/samkaka_">
+        </a>
+        <a href="https://x.com/SamKaka_" target="_blank" rel="noopener noreferrer">
           <BsTwitter />
-        </Link>
+        </a>
       </div>
-      <p> &copy; Made with ❤ by Sam.</p>
+      <p>&copy; Made with ❤ by Sam.</p>
     </div>
   )
 }
